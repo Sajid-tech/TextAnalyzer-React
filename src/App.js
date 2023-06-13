@@ -47,13 +47,13 @@ function App() {
     <div className="container my-3">
     <Routes>
     
-            <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>} />
+            <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Try TextAnalyzer - Word Counter, Character counter, Remove Extra Spaces" mode={mode}/>} />
               
         
             {/* <Route exact path="/about">
              <About/>
             </Route> */}
-            <Route exact path="/about" element={<About />} />
+            <Route exact path="/about" element={<About mode={mode}/>} />
           
             
 
