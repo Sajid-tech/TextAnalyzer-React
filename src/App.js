@@ -5,7 +5,7 @@ import Navbar from './componets/Navbar';
 import TextForm from './componets/TextForm';
 import React, { useState } from 'react';
 // react router dom
-import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 
 function App() {
